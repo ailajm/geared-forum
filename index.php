@@ -1,4 +1,12 @@
 <?php
+/*
+    Title: PHP OOP Practice (Notes)
+    Summary: Practicing with PHP OOP by building a simple site.
+    Date: 2021-08-01
+    Author: Coty McKinney
+    Credit: Skeleton Demo File templated
+*/
+
 
 // Basic PHP OOP Syntax ↓
 //    Class User{

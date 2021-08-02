@@ -1,28 +1,21 @@
 <?php
-
-class User{
-    public function register(){
-        echo 'User registered!';
+/*
+    Title: PHP OOP Practice (class practice)
+    Summary: Practicing with PHP OOP by building a simple site.
+    Date: 2021-08-01
+    Author: Coty McKinney
+    Credit: Skeleton Demo File templated
+*/
+    include("index.html");
+    class User{
+        public function register(){
+            echo '<script>alert("User registered!")</script>';
+        }
+        public function login($username, $password) {
+            //echo '<script>alert("$username . ' is now logged in!'")</script>';
+        }
     }
-
-    public function login($username, $password) {
-        echo $username . ' is now logged in!';
-    }
-
-}
-
-$User = new User;
-
-echo "<head>";
-    echo "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'"; 
-    echo "integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>";
-echo "</head>";
-
-echo "<body>";
+    $User = new User;
     $User->register();
-    echo "</br>";
-    $User->login('brad', '1234');
-
-
-echo "</body>";
+    $User->login('Brad', '1234');
 ?>
