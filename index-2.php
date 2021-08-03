@@ -4,18 +4,32 @@
     Summary: Practicing with PHP OOP by building a simple site.
     Date: 2021-08-01
     Author: Coty McKinney
-    Credit: Skeleton Demo File templated
+    Credit(s): Skeleton Demo File templated
 */
     include("index.html");
     class User{
-        public function register(){
-            echo '<script>alert("User registered!")</script>';
+        public $id;
+        public $username; 
+        public $email;
+        public $password;
+        public function __construct() {
+            echo "<script>alert('Constructor called!')</script>";
+        }
+        public function register($username){
+            echo "<script>alert(`$username registered!`)</script>";
         }
         public function login($username, $password) {
-            //echo '<script>alert("$username . ' is now logged in!'")</script>';
+            $this->auth_user($username,$password);
+        }
+        public function auth_user($username,$password) {
+            echo "<script>alert(`$username is authenticated!`)</script>";
+        }
+        public function __destruct(){
+            echo "<script>alert('Destructor called!')</script>";
+            // Used for closing database connections/"wrap-up tasks"
         }
     }
     $User = new User;
-    $User->register();
+    $User->register('Brad');
     $User->login('Brad', '1234');
 ?>
