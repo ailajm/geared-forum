@@ -1,7 +1,8 @@
 <?php
 /*
-    Title: PHP OOP Practice (Notes)
-    Summary: Practicing with PHP OOP by building a simple site.
+    Title: PHP OOP Practice
+    Description: Practicing with PHP OOP by building a simple site.
+    File Summary: Notes
     Date: 2021-08-01
     Author: Coty McKinney
     Credit: Skeleton Demo File templated
