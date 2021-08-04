@@ -6,30 +6,40 @@
     Author: Coty McKinney
     Credit(s): Skeleton Demo File templated
 */
-    include("index.html");
+
     class User{
-        public $id;
-        public $username; 
-        public $email;
-        public $password;
-        public function __construct() {
-            echo "<script>alert('Constructor called!')</script>";
+        private $id;
+        private $username;
+        private $email;
+        private $password;
+    
+        public function __construct($username, $password){
+            $this->username = $username;
+            $this->password = $password;
         }
-        public function register($username){
-            echo "<script>alert(`$username registered!`)</script>";
+    
+        public function register(){
+            echo '<pre>User Registered</pre>';
         }
-        public function login($username, $password) {
-            $this->auth_user($username,$password);
+    
+        public function login(){
+            $this->auth_user();
         }
-        public function auth_user($username,$password) {
-            echo "<script>alert(`$username is authenticated!`)</script>";
+    
+        public function auth_user(){
+            echo '<pre>' . $this->username . ' is authenticated</pre>';
         }
+    
         public function __destruct(){
-            echo "<script>alert('Destructor called!')</script>";
-            // Used for closing database connections/"wrap-up tasks"
+            echo '<pre>Destructor Called</pre>';
         }
     }
-    $User = new User;
-    $User->register('Brad');
-    $User->login('Brad', '1234');
+    
+    $User = new User('brad', '1234');
+    
+    $User->register();
+    
+    $User->login();
+
+    include("index.html");
 ?>
