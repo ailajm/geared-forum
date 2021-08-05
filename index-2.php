@@ -8,6 +8,8 @@
     Credit(s): Skeleton Demo File templated
 */
 
+    include("./index.html");
+
     // Declare User class
     class User{
         // Properties
