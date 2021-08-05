@@ -5,7 +5,6 @@
     File Summary: Classes, Methods, Properties, Visibility
     Date: 2021-08-01
     Author: Coty McKinney
-    Credit(s): Skeleton Demo File templated
 */
 
     include("./index.html");
