@@ -1,10 +1,10 @@
 <?php
 
     class Database{
-        private $host = /*Host servername, or address*/;
-        private $user = /*Your username*/;
-        private $pass = /*Your pass*/;
-        private $dbname = /*Your DB name*/;
+        // private $host = /*Host servername, or address*/;
+        // private $user = /*Your username*/;
+        // private $pass = /*Your pass*/;
+        // private $dbname = /*Your DB name*/;
 
         private $dbh;
         private $error;

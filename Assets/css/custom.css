@@ -1,0 +1,29 @@
+/*
+    Title: PHP OOP Practice (custom css file for index.html)
+    Summary: Practicing with PHP OOP by building a simple site.
+    Date: 2021-08-01
+    Author: Coty McKinney
+*/
+
+body {
+    color: chartreuse;
+}
+
+footer {
+    background-color: darkmagenta;
+}
+  
+/* Bigger than 550 */
+@media (min-width: 550px) {
+
+}
+  
+/* Bigger than 750 */
+@media (min-width: 750px) {
+
+}
+  
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+    
+}
