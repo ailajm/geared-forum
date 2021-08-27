@@ -11,7 +11,10 @@
         public function Index() {
             $this->query('SELECT * FROM shares');
             $rows = $this->resultSet();
-            print_r($rows);
+            for($i = 0; $i<count($rows); $i++) {
+                $row = json_encode($rows[$i]);
+                echo "<li>$row</li>";
+            }
         }
     }
 
