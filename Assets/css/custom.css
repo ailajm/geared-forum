@@ -7,10 +7,41 @@
 
 body {
     color: chartreuse;
+    background-color: darkcyan;
+}
+
+div.navi#navi {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    background-color: yellow;
+    color: blue;
+}
+
+div.navi#navi ul {
+    list-style-type: none;
+}
+
+div.shareRows {
+    position: absolute;
+    top: 25vh;
+    background: red;
+    color: darkblue;
+}
+
+div.skeletonCredits {
+    background-color: chocolate;
+    color: yellow;
+    height: 10vh;
+    width: 35vw;
 }
 
 footer {
+    position: fixed;
     background-color: darkmagenta;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
 }
   
 /* Bigger than 550 */
