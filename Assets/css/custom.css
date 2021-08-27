@@ -16,10 +16,20 @@ div.navi#navi {
     padding: 0;
     background-color: yellow;
     color: blue;
+    width: 100vw;
+    height: 10vh;
 }
 
 div.navi#navi ul {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
     list-style-type: none;
+}
+
+h1 {
+    position: absolute;
+    top: 20vh;
 }
 
 div.shareRows {
