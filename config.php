@@ -16,5 +16,8 @@
     //Define URL
     define('ROOT_PATH', '/');
     define('ROOT_URL', 'http://localhost/php-oop-practice');
+    define('SHARES_URL', 'http://localhost/php-oop-practice/shares');
+    define('USERS_URL', 'http://localhost/php-oop-practice/users');
+    define('ABOUT_URL', 'http://localhost/php-oop-practice/about');
 
 ?>

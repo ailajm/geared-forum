@@ -17,7 +17,7 @@ div.navi#navi {
     background-color: yellow;
     color: blue;
     width: 100vw;
-    height: 10vh;
+    height: 3vh;
 }
 
 div.navi#navi ul {
@@ -47,11 +47,28 @@ div.skeletonCredits {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     background-color: darkmagenta;
     bottom: 0;
     width: 100vw;
-    height: 10vh;
+}
+
+.skeletonCredits {
+    background-color: aquamarine;
+}
+
+.skeletonCredits a {
+    position: absolute;
+    bottom: -1vh;
+    left: 19vw;
+}
+
+.pageCredits {
+    position: absolute;
+    left: 35vw;
+    width: 35vw;
+    background-color: blueviolet;
+    bottom: 0;
 }
   
 /* Bigger than 550 */
