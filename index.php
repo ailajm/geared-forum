@@ -18,11 +18,13 @@
     require('Controllers/home.php');
     require('Controllers/shares.php');
     require('Controllers/users.php');
+    require('Controllers/about.php');
     
     // Include Models
     require('Models/home.php');
     require('Models/share.php');
     require('Models/user.php');
+    require('Models/about.php');
 
     $bootstrap = new Bootstrap($_GET);
     $controller = $bootstrap->createController();
