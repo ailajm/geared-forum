@@ -1,6 +1,6 @@
 <?php
 /*
-    Title: Shareboard 
+    Title: GEARED 
     Description: Practicing with PHP OOP and PDO by building a simple site.
     File Summary: Home model
     Date: 2021-09-18

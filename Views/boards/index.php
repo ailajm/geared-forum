@@ -1,6 +1,6 @@
 <?php
 /*
-    Title: Shareboard 
+    Title: GEARED 
     Description: Practicing with PHP OOP and PDO by building a simple site.
     File Summary: boards/index view
     Date: 2021-08-26
@@ -28,13 +28,13 @@
     for($i = 0; $i<count($rows); $i++) {
         $title = $rows[$i]["title"];
         $createDate = $rows[$i]["create_date"];
-        $shareBody = $rows[$i]["body"];
-        $shareLink = $rows[$i]["link"];
+        $boardDescription = $rows[$i]["description"];
+        $boardLink = $rows[$i]["link"];
         echo "<li><h2>$title<h2></li>";
         echo "<small><ins>Created on</ins>: $createDate</small>";
         echo "<hr />";
-        echo "<p>$shareBody</p>";
-        echo "<a class='btn btn-primary' href='$shareLink' target='_blank'>Go to link!</a>";
+        echo "<p>$boardDescription</p>";
+        echo "<a class='btn btn-primary' href='$boardLink' target='_blank'>Go!</a>";
         echo "<br />";
     }
     echo "</div>";

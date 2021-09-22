@@ -33,6 +33,7 @@
 <br />
 
 ## Wireframes
+![Wireframe](/Assets/images/basic-boards-in-dev.png)
 <hr />
 <br />
 

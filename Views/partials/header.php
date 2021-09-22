@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <title>GEARED</title>
     <meta name="description" content="Practicing with PHP OOP by building a simple site.  Mock-up musical instrument discussion board.">
-    <meta name="author" content="Saucermen Web Design">
+    <meta name="author" content="Saucermen Web Design-Coty McKinney">
 <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- FONT -->
