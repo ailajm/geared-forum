@@ -7,6 +7,11 @@
     Author: Coty McKinney
 */
 
-    echo "<h1 id='home'>This is the home index!</h1>";
+    echo "
+        <div class='homeIndexPage'>   
+                <h1 id='homeHeader'>Welcome to Geared!</h1>
+                <p>Talk, Share, and Save your favorite gear</p>   
+        </div>
+    ";
 
 ?>

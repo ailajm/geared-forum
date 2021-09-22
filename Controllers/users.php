@@ -12,6 +12,16 @@
             $viewModel = new UserModel();
             $this->ReturnView($viewModel->Index(), true);
         }
+
+        protected function Login() {
+            $viewModel = new UserModel();
+            $this->ReturnView($viewModel->Login(), true);
+        }
+
+        protected function Register() {
+            $viewModel = new UserModel();
+            $this->ReturnView($viewModel->Register(), true);
+        }
     }
 
 

@@ -7,6 +7,10 @@
     Author: Coty McKinney
 */
 
-    echo "<h1>This is the users index!</h1>";
+    echo "
+        <div class='usersIndexPage'>
+            <h1>This is the users index!</h1>
+        </div>
+    ";
 
 ?>

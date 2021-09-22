@@ -1,13 +1,11 @@
 <!DOCTYPE html>
+<html lang="en">
 <!--
-    Title: geared 
-    Description: Practicing with PHP OOP by building a simple site.  Mock-up musical instrument discussion board.
-    File Summary: html index file
+    Title: Geared 
+    Description: Mock-up musical equipment discussion board.
     Date: 2021-08-01
     Author: Coty McKinney
-    Credit: Skeleton Demo File templated
 -->
-<html lang="en">
 <head>
 <!-- Basic Page Needs -->
     <meta charset="utf-8">
@@ -39,11 +37,6 @@
 <!-- Scripts -->
     <script 
         src="https://kit.fontawesome.com/fedf65fe35.js" 
-        crossorigin="anonymous">
-    </script>
-    <script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous">
     </script>
 <!-- Favicon -->

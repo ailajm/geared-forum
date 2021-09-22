@@ -13,11 +13,8 @@
     define('DB_PASS', 'sayPlox');
     define('DB_NAME', 'shareboard');
 
-    //Define URL
-    define('ROOT_PATH', '/');
-    define('ROOT_URL', 'http://localhost/php-oop-practice');
-    define('SHARES_URL', 'http://localhost/php-oop-practice/shares');
-    define('USERS_URL', 'http://localhost/php-oop-practice/users');
-    define('ABOUT_URL', 'http://localhost/php-oop-practice/about');
+    // Define URL
+    define('ROOT_PATH', '/php-oop-practice/');
+    define('ROOT_URL', 'http://localhost/php-oop-practice/');
 
 ?>

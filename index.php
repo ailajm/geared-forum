@@ -6,7 +6,7 @@
     Date: 2021-08-23
     Author: Coty McKinney
 */
-
+    // Include DB & Routing Configuration
     require('config.php');
     
     // Include Classes
@@ -16,13 +16,13 @@
     
     // Include Controllers
     require('Controllers/home.php');
-    require('Controllers/shares.php');
+    require('Controllers/boards.php');
     require('Controllers/users.php');
     require('Controllers/about.php');
     
     // Include Models
     require('Models/home.php');
-    require('Models/share.php');
+    require('Models/board.php');
     require('Models/user.php');
     require('Models/about.php');
 

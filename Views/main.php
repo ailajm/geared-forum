@@ -7,9 +7,9 @@
     Author: Coty McKinney
 */
 
-    require("partials/header.html");
-    require("partials/nav.html");
+    require("partials/header.php");
+    require("partials/nav.php");
     require($view);
-    require("partials/footer.html");
+    require("partials/footer.php");
 
 ?>

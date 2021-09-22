@@ -2,14 +2,14 @@
 /*
     Title: Shareboard 
     Description: Practicing with PHP OOP and PDO by building a simple site.
-    File Summary: Shares controller
+    File Summary: Boards controller
     Date: 2021-08-23
     Author: Coty McKinney
 */
 
-    class Shares extends Controller {
+    class Boards extends Controller {
         protected function Index() {
-            $viewModel = new ShareModel();
+            $viewModel = new BoardModel();
             $this->ReturnView($viewModel->Index(), true);
         }
     }
