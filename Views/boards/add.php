@@ -12,11 +12,9 @@
 ?>
 
     <div class="form">
-        <form>
+        <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
             <div class="form-group">
-                <label>
-                    Share Title
-                </label>
+                <label>Title</label>
                 <input 
                     type="text"
                     name="title"
@@ -24,24 +22,18 @@
                 /> 
             </div>
             <div class="form-group">
-                <label>
-                    Body
-                </label>
-                <textarea name="body" class="form-control">
-                    Board description here....
-                </textarea> 
+                <label>Description</label>
+                <textarea name="description" class="form-control">Board description here....</textarea> 
             </div>
             <div class="form-group">
-                <label>
-                    Posts
-                </label>
+                <label>Link</label>
                 <input 
                     type="text"
-                    name="posts"
+                    name="link"
                     class="form-control" 
                 /> 
             </div>
             <input class="btn btn-success" name="submit" type="submit" value="submit"/>
-            <a class="btn btn-warning" href="<?php echo ROOT_URL;?>boards">Cancel</a>
+            <a class="btn btn-warning" href="<?php echo ROOT_PATH;?>boards">Cancel</a>
         </form>
     </div>

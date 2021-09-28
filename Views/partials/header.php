@@ -27,13 +27,13 @@
         crossorigin="anonymous">
     <link 
         rel="stylesheet" 
-        href="./Assets/css/normalize.css">
+        href="<?php echo ROOT_PATH; ?>Assets/css/normalize.css">
     <link 
         rel="stylesheet" 
-        href="./Assets/css/skeleton.css">   
+        href="<?php echo ROOT_PATH; ?>Assets/css/skeleton.css">   
     <link 
         rel="stylesheet" 
-        href="./Assets/css/custom.css">
+        href="<?php echo ROOT_PATH; ?>Assets/css/custom.css">
 <!-- Scripts -->
     <script 
         src="https://kit.fontawesome.com/fedf65fe35.js" 
@@ -43,7 +43,7 @@
     <link 
         rel="icon" 
         type="image/png" 
-        href="./Assets/images/napster-brands.svg">
+        href="<?php echo ROOT_PATH; ?>Assets/images/napster-brands.svg">
 </head>
 <body>
     <div class="container-fluid">

@@ -10,14 +10,13 @@
     class Boards extends Controller {
         protected function Index() {
             $viewModel = new BoardModel();
-            $this->ReturnView($viewModel->Index(), true);
+            $this->returnView($viewModel->Index(), true);
         }
 
         protected function add() {
             $viewModel = new BoardModel();
-            $this->ReturnView($viewModel->add(), true);
+            $this->returnView($viewModel->add(), true);
         }
     }
-
 
 ?>
