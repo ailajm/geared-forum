@@ -12,6 +12,11 @@
             $viewModel = new BoardModel();
             $this->ReturnView($viewModel->Index(), true);
         }
+
+        protected function add() {
+            $viewModel = new BoardModel();
+            $this->ReturnView($viewModel->add(), true);
+        }
     }
 
 
