@@ -7,13 +7,11 @@
     Author: Coty McKinney
 */
 
-// Includes
-
 // Class instances
     $boardModel = new BoardModel;
 
 //Global variables
-    $rows = $boardModel->index();
+    $rows = $boardModel->Index();
 
 ?>
 
@@ -24,6 +22,7 @@
 
 <?php 
 
+// Generate rows for boards
     echo "<div class='boardRows well'>";
     for($i = 0; $i<count($rows); $i++) {
         $title = $rows[$i]["title"];

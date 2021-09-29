@@ -11,7 +11,7 @@
 
 ?>
 
-    <div class="form">
+    <div class="form board-add-form">
         <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
             <div class="form-group">
                 <label>Title</label>
@@ -33,7 +33,7 @@
                     class="form-control" 
                 /> 
             </div>
-            <input class="btn btn-success" name="submit" type="submit" value="submit"/>
+            <input class="btn btn-primary" name="submit" type="submit" value="submit"/>
             <a class="btn btn-warning" href="<?php echo ROOT_PATH;?>boards">Cancel</a>
         </form>
     </div>

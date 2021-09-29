@@ -124,6 +124,10 @@
         padding-left: 20px;
     }
 
+    div.user-register-form.btn-submit {
+        background-color: skyblue;
+    }
+
 /* ABOUT VIEW */
 
     div.aboutIndexPage h1 {

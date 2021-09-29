@@ -1,7 +1,9 @@
 <!-- Start Navigation -->
     <div class="navbar navbar-default navi" id="navi">
         <div class="brandingIconNav">
-            <img src='<?php echo ROOT_PATH; ?>Assets/images/napster-brands.svg' alt='branding-icon'/>
+            <a class="btn" href="<?php echo ROOT_PATH;?>">
+                <img src='<?php echo ROOT_PATH; ?>Assets/images/napster-brands.svg' alt='branding-icon'/>
+            </a>
         </div>
         <div class="navLinks">
             <a href="<?php echo ROOT_PATH; ?>">Home</a>

@@ -10,17 +10,17 @@
     class Users extends Controller {
         protected function Index() {
             $viewModel = new UserModel();
-            $this->ReturnView($viewModel->Index(), true);
+            $this->returnView($viewModel->Index(), true);
         }
 
         protected function Login() {
             $viewModel = new UserModel();
-            $this->ReturnView($viewModel->Login(), true);
+            $this->returnView($viewModel->Login(), true);
         }
 
         protected function Register() {
             $viewModel = new UserModel();
-            $this->ReturnView($viewModel->Register(), true);
+            $this->returnView($viewModel->Register(), true);
         }
     }
 

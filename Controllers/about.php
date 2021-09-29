@@ -10,7 +10,7 @@
     class About extends Controller {
         protected function Index() {
             $viewModel = new AboutModel();
-            $this->ReturnView($viewModel->Index(), true);
+            $this->returnView($viewModel->Index(), true);
         }
     }
 
