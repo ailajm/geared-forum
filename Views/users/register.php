@@ -11,12 +11,12 @@
 
 ?>
     <div class="form user-register-form">
-        <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
+        <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <div class="form-group">
                 <label>username</label>
                 <input 
                     type="text"
-                    name="username"
+                    name="name"
                     class="form-control" >
                     yourUserNameHere
                 </input> 
@@ -38,14 +38,14 @@
                     class="form-control" 
                 /> 
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label>Confirm Password</label>
                 <input 
                     type="password"
                     name="confirmPassword"
                     class="form-control" 
                 /> 
-            </div>
+            </div> -->
             <input class="btn btn-primary btn-submit" name="submit" type="submit" value="submit"/>
             <a class="btn btn-warning" href="<?php echo ROOT_PATH;?>">Cancel</a>
         </form>
