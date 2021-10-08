@@ -8,10 +8,10 @@
 <br />
 
 ## Features
-|Features|Implemented|Partial|Stretch Goals|User Story|Versions Supported|
+|Features|Implemented|Partial|Icebox|User Story|Versions Supported|
 |--------|-------|-----------|--------------------|----------|------------------|
-|CRUD Boards and Posts| --- | --- | --- | ---| 1+ |
-|User Registration & Login| --- | --- | --- | ---| 1+ |
+|CRUD Boards and Posts| --- | X | --- | As a user I can create a board. | 1+ |
+|User Registration & Login| --- | X | --- | As a user I can register an account. | 1+ |
 <hr />
 <br />
 
