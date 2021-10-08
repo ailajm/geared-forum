@@ -12,7 +12,7 @@
 ?>
 
     <div class="form board-add-form">
-        <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
+        <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <div class="form-group">
                 <label>Title</label>
                 <input 
