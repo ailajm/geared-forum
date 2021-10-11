@@ -8,13 +8,13 @@
 */
 
     // Define DB Params
-    define('DB_HOST', '<YOUR-DB-HOST-HERE>');
-    define('DB_USER', '<YOUR-DB-USER-HERE>');
-    define('DB_PASS', '<YOUR-DB-USER-PASSWORD-HERE>');
-    define('DB_NAME', '<YOUR-DB-NAME-HERE>');
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'admin');
+    define('DB_PASS', 'sayPlox');
+    define('DB_NAME', 'geared-forums');
 
     // Define URL
-    define('ROOT_PATH', '<YOUR-ROOT-PATH-HERE>');
-    define('ROOT_URL', '<YOUR-ROOT-URL-HERE>');
+    define('ROOT_PATH', '/php-oop-practice/');
+    define('ROOT_URL', 'localhost/php-oop-practice/');
 
 ?>

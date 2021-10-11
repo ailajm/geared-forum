@@ -27,8 +27,8 @@
             if($post['submit']){
                 // die('SUBMITTED!');
                 // Insert into MySQL
-                $this->query('INSERT INTO users (name, email, password) VALUES(:name, :email, :password)');
-                $this->bind(':name', $post['name']);
+                $this->query('INSERT INTO users (username, email, password) VALUES(:username, :email, :password)');
+                $this->bind(':username', $post['username']);
                 $this->bind(':email', $post['email']);
                 $this->bind(':password', password_hash($post['password'], PASSWORD_DEFAULT));
                 $this->execute();

@@ -9,7 +9,7 @@
 
     class BoardModel extends Model{
         public function Index() {
-            $this->query('SELECT * FROM boards ORDER BY create_date DESC');
+            $this->query('SELECT * FROM boards ORDER BY creation_date DESC');
             $rows = $this->resultSet();
             return $rows;
         }

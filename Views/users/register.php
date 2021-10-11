@@ -16,7 +16,7 @@
                 <label>username</label>
                 <input 
                     type="text"
-                    name="name"
+                    name="username"
                     class="form-control" >
                     yourUserNameHere
                 </input> 

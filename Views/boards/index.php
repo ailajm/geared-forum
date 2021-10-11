@@ -26,7 +26,7 @@
     echo "<div class='boardRows well'>";
     for($i = 0; $i<count($rows); $i++) {
         $title = $rows[$i]["title"];
-        $createDate = $rows[$i]["create_date"];
+        $createDate = $rows[$i]["creation_date"];
         $boardDescription = $rows[$i]["description"];
         $boardLink = $rows[$i]["link"];
         echo "<li><h2>$title<h2></li>";
