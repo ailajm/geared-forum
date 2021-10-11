@@ -15,6 +15,6 @@
 
     // Define URL
     define('ROOT_PATH', '/php-oop-practice/');
-    define('ROOT_URL', 'localhost/php-oop-practice/');
+    define('ROOT_URL', 'http://localhost/php-oop-practice/');
 
 ?>
