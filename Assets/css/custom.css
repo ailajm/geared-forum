@@ -36,7 +36,6 @@
     div.navi#navi a {
         color: white;
         padding: 10px;
-        margin: 10px;
         text-decoration: none;
         display: block;
     }
@@ -45,7 +44,9 @@
         background-color: chartreuse;
         position: absolute;
         top: 0;
-        left: -.25;
+        left: 0;
+        border: solid darkcyan;
+        padding: 1px;
     }
   
     /* Change color on hover */
@@ -61,7 +62,7 @@
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
-        position: absolute;
+        position: fixed;
         background-color: darkmagenta;
         bottom: 0;
         left: 0;
@@ -139,6 +140,7 @@
 /* ABOUT VIEW */
 
     div.aboutIndexPage h1 {
+        display: flex;
         position: absolute;
         top: 15vh;
         margin-left: 200px;
@@ -150,6 +152,8 @@
         top: 45vh;
         margin-left: 200px;
         padding-left: 20px;
+        display: flex;
+        flex-direction: row;
     }
     
 /* MEDIA QUERIES */
