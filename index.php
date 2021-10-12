@@ -6,6 +6,9 @@
     Date: 2021-08-23
     Author: Coty McKinney
 */
+    // Start Session
+    session_start();
+
     // Include DB & Routing Configuration
     require('config.php');
     

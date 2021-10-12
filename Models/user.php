@@ -13,24 +13,47 @@
         }
 
         public function Login() {
+            // Sanitize POST
+            $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+    
+            $password = md5($post['password']);
+    
+            if($post['submit']){
+                // Compare Login
+                $this->query('SELECT * FROM users WHERE username = :username AND password = :password');
+                $this->bind(':username', $post['username']);
+                $this->bind(':password', $password);
+                
+                $row = $this->userRec();
+    
+                if($row){
+                    $_SESSION['is_logged_in'] = true;
+                    $_SESSION['user_data'] = [
+                        'id' => $row['id'],
+                        'username' => $row['username'],
+                        'email' => $row['email'],
+                    ];
+
+                    header('Location: '.ROOT_URL.'users/');
+                } else {
+                    echo 'Incorrect Login';
+                }
+            }
             return;
-            // if(password_verify($password, $hashed_password)) {
-            // If the password inputs matched the hashed password in the database
-            // Do something, you know... log them in.} 
-            // Else, Redirect them back to the login page
         }
 
         public function Register() {
             // Sanitize POST
             $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
-        
+    
+            $password = md5($post['password']);
+    
             if($post['submit']){
-                // die('SUBMITTED!');
                 // Insert into MySQL
                 $this->query('INSERT INTO users (username, email, password) VALUES(:username, :email, :password)');
                 $this->bind(':username', $post['username']);
                 $this->bind(':email', $post['email']);
-                $this->bind(':password', password_hash($post['password'], PASSWORD_DEFAULT));
+                $this->bind(':password', $password);
                 $this->execute();
                 // Verify
                 if($this->lastInsertId()){

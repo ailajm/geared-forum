@@ -9,10 +9,9 @@
             <a href="<?php echo ROOT_PATH; ?>">Home</a>
             <a href="<?php echo ROOT_PATH . "boards"; ?>">Boards</a>
             <?php
-                $loggedIn = false;
-
-                if($loggedIn) {
-                    echo "<a href=" . ROOT_PATH . "user>User</a>";
+                if(isset($_SESSION['is_logged_in'])) {
+                    echo "<a href=" . ROOT_PATH . "users/>{$_SESSION['username']}</a>";
+                    echo "<a href=" . ROOT_PATH . ">Logout</a>";
                 }else {
                     echo "
                         <a href=" . ROOT_PATH . "users/login>Log-In</a>

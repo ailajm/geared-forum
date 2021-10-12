@@ -51,5 +51,10 @@
 	    public function lastInsertId(){
 		    return $this->dbh->lastInsertId();
 	    }
+
+		public function userRec(){
+			$this->execute();
+			return $this->stmt->fetch(PDO::FETCH_ASSOC);
+		}
     }
 ?>
