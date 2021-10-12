@@ -14,8 +14,12 @@
         }
 
         protected function add() {
-            $viewModel = new BoardModel();
-            $this->returnView($viewModel->add(), true);
+            if(!isset($_SESSION['is_logged_in'])) {
+                header('Location: '.ROOT_URL.'boards');
+            }else {
+                $viewModel = new BoardModel();
+                $this->returnView($viewModel->add(), true);
+            }
         }
     }
 

@@ -17,7 +17,11 @@
 
     <div class='boardsIndexPage'>
         <h1>This is the boards index!</h1>
-        <a class="btn btn-success btn-board" href="<?php echo ROOT_URL; ?>boards/add">Sound off!</a>
+        <?php
+            if(isset($_SESSION['is_logged_in'])) {
+                echo "<a class='btn btn-success btn-board' href='".ROOT_URL."boards/add'>Sound off!</a>";
+            }
+        ?>
     </div>
 
 <?php 
