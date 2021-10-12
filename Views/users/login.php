@@ -7,9 +7,12 @@
     Author: Coty McKinney
 */
 
-    echo "<h1>This is the users login!</h1>";
-
 ?>
+
+    <div class="user-login-header">
+        <h1>This is the users login!</h1>
+    </div>
+
 
     <div class="form user-login-form">
         <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
@@ -19,7 +22,6 @@
                     type="text"
                     name="username"
                     class="form-control" >
-                    yourUserNameHere
                 </input> 
             </div>
             <div class="form-group">

@@ -7,9 +7,12 @@
     Author: Coty McKinney
 */
 
-    echo "<h1>This is the users registration!</h1>";
-
 ?>
+
+    <div class="user-register-header">
+        <h1>This is the users registration!</h1>
+    </div>
+
     <div class="form user-register-form">
         <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <div class="form-group">
@@ -18,7 +21,6 @@
                     type="text"
                     name="username"
                     class="form-control" >
-                    yourUserNameHere
                 </input> 
             </div>
             <div class="form-group">
@@ -27,7 +29,6 @@
                     type="text" 
                     name="email" 
                     class="form-control">
-                    tomServo@examplonet.com
                 </input> 
             </div>
             <div class="form-group">

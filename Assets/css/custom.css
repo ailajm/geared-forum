@@ -1,5 +1,5 @@
 /*
-    Title: Shareboard
+    Title: GEARED Forums
     Summary: Practicing with PHP OOP by building a simple site.
     Date: 2021-08-23
     Author: Coty McKinney
@@ -22,7 +22,7 @@
     /* Style the side navigation */
     div.navi#navi {
         height: 100vh;
-        width: 5vw;
+        width: 9vw;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -117,15 +117,23 @@
 
 /* USERS VIEW */
 
-    div.usersIndexPage h1 {
+    .user-login-header,
+    .user-register-header,
+    .user-index-header {
         position: absolute;
-        top: 15vh;
-        margin-left: 200px;
-        padding-left: 20px;
+        top: 5vh;
+        margin-left: 10vw;
     }
 
     div.user-register-form.btn-submit {
         background-color: skyblue;
+    }
+    
+    div.user-register-form,
+    div.user-login-form {
+        margin-top: 10vh;
+        width: 40vw;
+        margin-left: 10vw;
     }
 
 /* ABOUT VIEW */

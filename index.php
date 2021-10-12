@@ -16,6 +16,7 @@
     require('Classes/Bootstrap.php');
     require('Classes/Controller.php');
     require('Classes/Model.php');
+    require('Classes/ErrorSuccessMessaging.php');
     
     // Include Controllers
     require('Controllers/home.php');

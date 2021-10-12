@@ -36,7 +36,7 @@
 
                     header('Location: '.ROOT_URL.'users/');
                 } else {
-                    echo 'Incorrect Login';
+                    ErrorSuccessMessaging::setMsg('Incorrect username, or password.', 'error');
                 }
             }
             return;
@@ -47,8 +47,12 @@
             $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
     
             $password = md5($post['password']);
-    
+            
             if($post['submit']){
+                if($post['username'] == '' || $post['email'] == '' || $post['password'] == '') {
+                    ErrorSuccessMessaging::setMsg('Please fill out entire form.', 'error');
+                    return;
+                }
                 // Insert into MySQL
                 $this->query('INSERT INTO users (username, email, password) VALUES(:username, :email, :password)');
                 $this->bind(':username', $post['username']);

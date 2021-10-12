@@ -9,6 +9,7 @@
 
     require("partials/header.php");
     require("partials/nav.php");
+    ErrorSuccessMessaging::display();
     require($view);
     require("partials/footer.php");
 
