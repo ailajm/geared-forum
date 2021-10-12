@@ -22,6 +22,13 @@
             $viewModel = new UserModel();
             $this->returnView($viewModel->Register(), true);
         }
+
+        protected function Logout() {
+            unset($_SESSION['is_logged_in']);
+            unset($_SESSION['user_data']);
+            session_destroy();
+            header('location: '.ROOT_URL);
+        }
     }
 
 

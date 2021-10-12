@@ -11,7 +11,7 @@
             <?php
                 if(isset($_SESSION['is_logged_in'])) {
                     echo "<a href=" . ROOT_PATH . "users/>{$_SESSION['user_data']['username']}</a>";
-                    echo "<a href=" . ROOT_PATH . ">Logout</a>";
+                    echo "<a href=" . ROOT_PATH . "users/logout>Logout</a>";
                 }else {
                     echo "
                         <a href=" . ROOT_PATH . "users/login>Log-In</a>
