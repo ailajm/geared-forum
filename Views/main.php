@@ -7,6 +7,7 @@
     Author: Coty McKinney
 */
 
+// build page
     require("partials/header.php");
     require("partials/nav.php");
     ErrorSuccessMessaging::display();

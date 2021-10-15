@@ -6,33 +6,30 @@
     Date: 2021-08-23
     Author: Coty McKinney
 */
-    // Start Session
-    session_start();
 
-    // Include DB & Routing Configuration
-    require('config.php');
-    
-    // Include Classes
+// start session
+    session_start();
+// include database & routing config
+    require('config.php');    
+// include classes
     require('Classes/Bootstrap.php');
     require('Classes/Controller.php');
     require('Classes/Model.php');
-    require('Classes/ErrorSuccessMessaging.php');
-    
-    // Include Controllers
+    require('Classes/ErrorSuccessMessaging.php');    
+// include controllers
     require('Controllers/home.php');
     require('Controllers/boards.php');
     require('Controllers/users.php');
-    require('Controllers/about.php');
-    
-    // Include Models
+    require('Controllers/about.php');    
+// include models
     require('Models/home.php');
     require('Models/board.php');
     require('Models/user.php');
     require('Models/about.php');
-
+// create bootstrap instance and controller
     $bootstrap = new Bootstrap($_GET);
     $controller = $bootstrap->createController();
-    
+// check for controller    
     if($controller) {
         $controller->executeAction();
     }

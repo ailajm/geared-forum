@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <!--
     Title: Geared 
     Description: Mock-up musical equipment discussion board.
     Date: 2021-08-01
     Author: Coty McKinney
 -->
+
 <head>
-<!-- Basic Page Needs -->
+<!-- basic page needs -->
     <meta charset="utf-8">
     <title>GEARED</title>
     <meta name="description" content="Practicing with PHP OOP by building a simple site.  Mock-up musical instrument discussion board.">
     <meta name="author" content="Saucermen Web Design-Coty McKinney">
-<!-- Mobile Specific Metas -->
+<!-- mobile specific metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- FONT -->
+<!-- font -->
     <link 
         href='//fonts.googleapis.com/css?family=Raleway:400,300,600' 
         rel='stylesheet' 
         type='text/css'>
-<!-- CSS -->
+<!-- css -->
     <link 
         rel="stylesheet" 
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
@@ -34,12 +36,12 @@
     <link 
         rel="stylesheet" 
         href="<?php echo ROOT_PATH; ?>Assets/css/custom.css">
-<!-- Scripts -->
+<!-- scripts -->
     <script 
         src="https://kit.fontawesome.com/fedf65fe35.js" 
         crossorigin="anonymous">
     </script>
-<!-- Favicon -->
+<!-- favicon -->
     <link 
         rel="icon" 
         type="image/png" 

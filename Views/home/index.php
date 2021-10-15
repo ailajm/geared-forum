@@ -7,11 +7,9 @@
     Author: Coty McKinney
 */
 
-    echo "
-        <div class='homeIndexPage'>   
-                <h1 id='homeHeader'>Welcome to Geared!</h1>
-                <p>Talk, Share, and Save your favorite gear</p>   
-        </div>
-    ";
-
 ?>
+
+    <div class="home-index-view">   
+        <h1 class="header">Welcome to Geared!</h1>
+        <p>Talk, Share, and Save your favorite gear</p>   
+    </div>

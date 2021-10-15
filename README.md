@@ -20,6 +20,7 @@
 <br />
 
 ## Getting Started
+[Styleguide](./styleguide.md)
 <hr />
 <br />
 
@@ -37,4 +38,4 @@
 <hr />
 <br />
 
-Contact: saucermenwebdesign@gmail.com
+Contact: [Saucermen Web Design](mailto:saucermenwebdesign@gmail.com)

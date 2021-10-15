@@ -9,7 +9,7 @@
 
 ?>
 
-<!-- page start -->
+<!-- start user login view -->
     <div class="view user-login-view">
 <!-- login form -->
         <div class="form user-login-form">

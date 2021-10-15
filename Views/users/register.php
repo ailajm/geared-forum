@@ -8,9 +8,11 @@
 */
 
 ?>
+
+<!-- start user register view -->
     <div class="view user-register-view">
-<!-- start page -->
         <div class="form user-register-form">
+<!-- register form -->
             <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
 <!-- branding and prompt -->
                 <div class="header">

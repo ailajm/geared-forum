@@ -9,11 +9,6 @@
 
 ?>
 
-    <div class="user-index-page">  
-
-        <div class="jumbotron user-index-header">
-
-            <h1>This is the users index!</h1>
-        </div>
-        
+    <div class="view user-index-view">  
+        <h1 class="header">This is the users index!</h1>        
     </div>

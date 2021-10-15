@@ -90,7 +90,7 @@
 /* base views */
 
 /* home view */
-    div.homeIndexPage {
+    div.home-index-view {
         color: var(--main-text-color);
         font-size: 30px;
         position: absolute;
