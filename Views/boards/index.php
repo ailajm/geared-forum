@@ -14,16 +14,13 @@
     $rows = $boardModel->Index();
 
 ?>
-
-    <div class='boardsIndexPage'>
-        <h1>This is the boards index!</h1>
+    <div class='view boards-index-view'>
+        <h1 class="header">Soundboards</h1>
         <?php
             if(isset($_SESSION['is_logged_in'])) {
-                echo "<a class='btn btn-success btn-board' href='".ROOT_URL."boards/add'>Sound off!</a>";
+                echo "<a class='btn btn-lg btn-success btn-board' href='".ROOT_URL."boards/add'>Sound off!</a>";
             }
         ?>
-    </div>
-
 <?php 
 
 // Generate rows for boards
@@ -43,3 +40,4 @@
     echo "</div>";
 
 ?>
+    </div>
