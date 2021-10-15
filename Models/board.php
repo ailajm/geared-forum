@@ -1,7 +1,7 @@
 <?php
 /*
     Title: GEARED
-    Description: Practicing with PHP OOP and PDO by building a simple site.
+    Description: Mock-up musical equipment discussion board.
     File Summary: Boards model
     Date: 2021-08-23
     Author: Coty McKinney
@@ -18,7 +18,7 @@
             // Sanitize POST
             $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
     
-            if($post['submit']){
+            if(isset($post['submit'])){
                 if($post['title'] == '' || $post['description'] == '' || $post['link'] == '') {
                     ErrorSuccessMessaging::setMsg('Please fill out entire form.', 'error');
                     return;

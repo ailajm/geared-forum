@@ -1,39 +1,43 @@
 <?php
 /*
     Title: GEARED 
-    Description: Practicing with PHP OOP and PDO by building a simple site.
+    Description: Mock-up musical equipment discussion board.
     File Summary: boards/add view
     Date: 2021-08-26
     Author: Coty McKinney
 */
 
-    echo "<h1>This is the boards add!</h1>";
-
 ?>
 
-    <div class="form board-add-form">
-        <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-            <div class="form-group">
-                <label>Title</label>
-                <input 
-                    type="text"
-                    name="title"
-                    class="form-control" 
-                /> 
-            </div>
-            <div class="form-group">
-                <label>Description</label>
-                <textarea name="description" class="form-control">Board description here....</textarea> 
-            </div>
-            <div class="form-group">
-                <label>Link</label>
-                <input 
-                    type="text"
-                    name="link"
-                    class="form-control" 
-                /> 
-            </div>
-            <input class="btn btn-primary" name="submit" type="submit" value="submit"/>
-            <a class="btn btn-warning" href="<?php echo ROOT_PATH;?>boards">Cancel</a>
-        </form>
+    <div class="view board-add-view">
+        <div class="form board-add-form">
+            <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+                <div class="header">
+                    <h1 class="h3 mb-3 fw-normal">Add board</h1>
+                </div>
+                <div class="form-group">
+                    <label><ins>Title</ins></label>
+                    <input 
+                        type="text"
+                        name="title"
+                        class="form-control"
+                        placeholder="Let's talk gear!" 
+                    /> 
+                </div>
+                <div class="form-group">
+                    <label><ins>Description</ins></label>
+                    <textarea name="description" class="form-control">Board description here....</textarea> 
+                </div>
+                <!-- <div class="form-group">
+                    <label><ins>Link</ins></label>
+                    <input 
+                        type="text"
+                        name="link"
+                        class="form-control" 
+                    /> 
+                </div> -->
+                <input class="w-100 btn btn-lg btn-primary" name="submit" type="submit" value="submit"/>
+                <a class="w-100 btn btn-lg btn-warning" href="<?php echo ROOT_PATH;?>boards">Cancel</a>
+            </form>
+        </div>
     </div>

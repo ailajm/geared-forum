@@ -1,7 +1,7 @@
 <?php
 /*
     Title: GEARED 
-    Description: Practicing with PHP OOP and PDO by building a simple site.
+    Description: Mock-up musical equipment discussion board.
     File Summary: PHP index file
     Date: 2021-08-23
     Author: Coty McKinney

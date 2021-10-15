@@ -1,25 +1,35 @@
 /*
     Title: GEARED Forums
-    Summary: Practicing with PHP OOP by building a simple site.
+    Description: Mock-up musical equipment discussion board.
+    File Summary: Custom CSS file
     Date: 2021-08-23
     Author: Coty McKinney
 */
 
+/* custom properties */
+    :root {
+        --main-text-color: rgb(231, 222, 222);
+    }
+/* global attributes */
     * {
         box-sizing: border-box;
     }
     
     body {
-        color: chartreuse;
-        background-color: darkcyan;
+        position: absolute;
+        color: var(--main-text-color);
         top: 0;
         left: 0;
         margin: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/guillaume-techer-Jm9P0mDPo6A-unsplash.jpg');
     }
+/* header */
 
-/* NAVIGATION */
+/* navigation */
 
-    /* Style the side navigation */
+/* style the side navigation */
     div.navi#navi {
         height: 100vh;
         width: 9vw;
@@ -32,7 +42,7 @@
         display: flex;
     }
   
-    /* Side navigation links */
+/* Side navigation links */
     div.navi#navi a {
         color: white;
         padding: 10px;
@@ -45,17 +55,17 @@
         position: absolute;
         top: 0;
         left: 0;
-        border: solid darkcyan;
+        border: solid rgb(2, 143, 143);
         padding: 1px;
     }
   
-    /* Change color on hover */
+/* Change color on hover */
     div.navi#navi a:hover {
         background-color: #ddd;
         color: black;
     }
 
-/* FOOTER */
+/* footer */
 
     footer {
         display: flex;
@@ -77,10 +87,11 @@
         bottom: 0;
         text-align: center;
     }
+/* base views */
 
-/* HOME VIEW */
+/* home view */
     div.homeIndexPage {
-        color: blue;
+        color: var(--main-text-color);
         font-size: 30px;
         position: absolute;
         top: 15vh;
@@ -89,9 +100,7 @@
         margin-left: 200px;
         padding-left: 20px;
     }
-
-/* BOARDS VIEW */
-
+/* boards view */
     div.boardsIndexPage h1 {
         position: absolute;
         top: 15vh;
@@ -115,34 +124,18 @@
         padding-left: 20px;
         list-style: none;
     }
-
-/* USERS VIEW */
-
-    .user-login-header,
-    .user-register-header,
-    .user-index-header {
-        position: absolute;
-        top: 5vh;
-        margin-left: 10vw;
-    }
-
-    div.user-register-form.btn-submit {
-        background-color: skyblue;
-    }
-    
+/* users view */
     div.user-register-form,
-    div.user-login-form {
+    div.user-login-form,
+    div.form {
         margin-top: 10vh;
         width: 40vw;
         margin-left: 10vw;
     }
-
-/* ABOUT VIEW */
-
-    div.aboutIndexPage h1 {
-        display: flex;
+/* about view */
+    div.technologyAndCredits h1 {
         position: absolute;
-        top: 15vh;
+        top: 5vh;
         margin-left: 200px;
         padding-left: 20px;
     }
@@ -155,20 +148,18 @@
         display: flex;
         flex-direction: row;
     }
-    
-/* MEDIA QUERIES */
-
-    /* Bigger than 550 */
+/* media queries */
+/* Bigger than 550 */
     @media (min-width: 550px) {
 
     }
-  
-    /* Bigger than 750 */
+
+/* Bigger than 750 */
     @media (min-width: 750px) {
 
     }
-  
-    /* Bigger than 1000 */
+
+/* Bigger than 1000 */
     @media (min-width: 1000px) {
     
     }

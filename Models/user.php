@@ -1,7 +1,7 @@
 <?php
 /*
     Title: GEARED 
-    Description: Practicing with PHP OOP and PDO by building a simple site.
+    Description: Mock-up musical equipment discussion board.
     File Summary: Users model
     Date: 2021-08-23
     Author: Coty McKinney
@@ -16,9 +16,9 @@
             // Sanitize POST
             $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
     
-            $password = md5($post['password']);
+            $password = md5(isset($post['password']));
     
-            if($post['submit']){
+            if(isset($post['submit'])){
                 // Compare Login
                 $this->query('SELECT * FROM users WHERE username = :username AND password = :password');
                 $this->bind(':username', $post['username']);
@@ -46,9 +46,9 @@
             // Sanitize POST
             $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
     
-            $password = md5($post['password']);
+            $password = md5(isset($post['password']));
             
-            if($post['submit']){
+            if(isset($post['submit'])){
                 if($post['username'] == '' || $post['email'] == '' || $post['password'] == '') {
                     ErrorSuccessMessaging::setMsg('Please fill out entire form.', 'error');
                     return;

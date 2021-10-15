@@ -1,7 +1,7 @@
 <?php
 /*
     Title: GEARED 
-    Description: Practicing with PHP OOP and PDO by building a simple site.
+    Description: Mock-up musical equipment discussion board.
     File Summary: About controller
     Date: 2021-09-18
     Author: Coty McKinney
