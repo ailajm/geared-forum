@@ -16,7 +16,7 @@
             <form method="POST" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>"> 
 <!-- branding and prompt -->
                 <div class="header">
-                    <img class="mb-4" src="<?php echo ROOT_PATH; ?>Assets/images/napster-brands.svg" alt="GEARED Logo" width="160" height="135">
+                    <img class="mb-4" src="<?php echo ROOT_PATH; ?>Assets/images/equalizer.png" alt="GEARED Logo" width="160" height="135">
                     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
                 </div>               
 <!-- text fields -->

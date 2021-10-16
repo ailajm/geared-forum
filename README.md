@@ -33,8 +33,14 @@
 <hr />
 <br />
 
-## Wireframes
-![Wireframe](/Assets/images/basic-boards-in-dev.png)
+## Wireframes/Mockups
+### Browser home view
+![browser-home-mockup](/Assets/images/browser-home-view.png)
+### Boards index view
+![boards-index-mockup](/Assets/images/basic-boards-in-dev.png)
+### Tablet about view
+![tablet-about-view](/Assets/images/tablet-about-view-mockup.png)
+
 <hr />
 <br />
 

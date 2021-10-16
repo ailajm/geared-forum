@@ -2,7 +2,7 @@
     <div class="navbar navbar-default navi" id="navi">
         <div class="brandingIconNav">
             <a class="btn" href="<?php echo ROOT_PATH;?>">
-                <img src='<?php echo ROOT_PATH; ?>Assets/images/napster-brands.svg' alt='branding-icon'/>
+                <img class="logo nav-logo" src='<?php echo ROOT_PATH; ?>Assets/images/equalizer.png' alt='branding-icon'/>
             </a>
         </div>
         <div class="navLinks">
