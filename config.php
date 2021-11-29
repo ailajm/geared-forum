@@ -11,7 +11,7 @@
     define('DB_HOST', 'localhost');
     define('DB_USER', 'admin');
     define('DB_PASS', 'sayPlox');
-    define('DB_NAME', 'geared-forums');
+    define('DB_NAME', 'geared_forums');
 // define url
     define('ROOT_PATH', '/php-oop-practice/');
     define('ROOT_URL', 'http://localhost/php-oop-practice/');

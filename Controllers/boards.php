@@ -18,8 +18,13 @@
                 header('Location: '.ROOT_URL.'boards');
             }else {
                 $viewModel = new BoardModel();
-                $this->returnView($viewModel->add(), true);
+                $this->returnView($viewModel->Add(), true);
             }
+        }
+
+        protected function Board() {
+            $viewModel = new BoardModel();
+            $this->returnView($viewModel->Board(), true);
         }
     }
 

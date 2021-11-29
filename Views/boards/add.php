@@ -28,14 +28,6 @@
                     <label><ins>Description</ins></label>
                     <textarea name="description" class="form-control">Board description here....</textarea> 
                 </div>
-                <!-- <div class="form-group">
-                    <label><ins>Link</ins></label>
-                    <input 
-                        type="text"
-                        name="link"
-                        class="form-control" 
-                    /> 
-                </div> -->
                 <input class="w-100 btn btn-lg btn-primary" name="submit" type="submit" value="submit"/>
                 <a class="w-100 btn btn-lg btn-warning" href="<?php echo ROOT_PATH;?>boards">Cancel</a>
             </form>
