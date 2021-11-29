@@ -34,7 +34,7 @@
 /* navigation */
     div.navi#navi {
         height: 98vh;
-        width: 9vw;
+        width: 5vw;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -58,7 +58,7 @@
         top: 0;
         left: 0;
         border: ridge rgb(2, 143, 143);
-        width: 9vw;
+        width: 5vw;
     }  
 /* Change color on hover */
     div.navi#navi a:hover {
@@ -97,10 +97,14 @@
     div.home-index-view h1,
     div.home-index-view p {
         position: absolute;
-        left: 10vw;
+    }
+    div.home-index-view h1 {
+        left: 37vw;
+        top: 40vh;
     }
     div.home-index-view p {
-        top: 5vh;
+        top: 46vh;
+        left: 34vw;
     }
 /* boards view */
     div.boards-index-view {
