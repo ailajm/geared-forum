@@ -62,33 +62,12 @@
 
 // Counts functions
         // public function getCategoryTopicsCount(){
-        //     if($this->category_id) {
-        //         $sqlQuery = "
-        //             SELECT count(*) as total_topic
-        //             FROM ".$this->topicTable." 
-        //             WHERE category_id = ".$this->category_id;
-                
-        //         $stmt = $this->conn->prepare($sqlQuery);
-        //         $stmt->execute();
-        //         $result = $stmt->get_result();	
-        //         $categoryDetails = $result->fetch_assoc();			
-        //         return $categoryDetails['total_topic'];	
+        //     if($this->cat_id) {
         //     }
         // }
 
         // public function getCategorypostsCount(){
-        //     if($this->category_id) {
-        //         $sqlQuery = "
-        //             SELECT count(p.post_id) as total_posts
-        //             FROM ".$this->postTable." as p
-        //             LEFT JOIN ".$this->topicTable." as t ON p.topic_id = t.topic_id
-        //             LEFT JOIN ".$this->categoryTable." as c ON t.category_id = c.category_id				
-        //             WHERE c.category_id = ".$this->category_id;			
-        //         $stmt = $this->conn->prepare($sqlQuery);
-        //         $stmt->execute();
-        //         $result = $stmt->get_result();	
-        //         $categoryDetails = $result->fetch_assoc();			
-        //         return $categoryDetails['total_posts'];	
+        //     if($this->cat_id) {
         //     }
         // }
     }
