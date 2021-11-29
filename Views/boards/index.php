@@ -34,7 +34,7 @@
         echo "<small><ins>Created on</ins>: $createDate</small>";
         echo "<hr />";
         echo "<p>$boardDescription</p>";
-        echo "<a class='btn btn-primary' href='boards/board?cat_id=$catId' title='$title' target='_blank'>Go!</a>";
+        echo "<a class='btn btn-primary' href='boards/board?cat_id=$catId' title='$title'>Go!</a>";
         echo "<br />";
     }
     echo "</div>";
