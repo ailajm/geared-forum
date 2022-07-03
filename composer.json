@@ -1,0 +1,21 @@
+{
+    "name": "saucermen-web-design/geared-forums",
+    "description": "music gear discussion site",
+    "type": "project",
+    "require-dev": {
+        "monolog/monolog": "^2.7"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "SaucermenWebDesign\\GearedForums\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saucermen Web Design",
+            "email": "saucermenwebdesign@gmail.com"
+        }
+    ],
+    "require": {}
+}
